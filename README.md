@@ -7,7 +7,7 @@ Few of the additions include:
 * Support for multiple author attribution in a blog. This includes both different authors for various posts, as well as multiple authors per post.
 * Switched to using the gorgeous textures of [Virginie Moerenhout](http://www.flickr.com/photos/yndra)
 
-![screenshot of Minimal Jekyll Theme](http://arg0s.github.io/minimal-jekyll-theme/images/theme-post-600.jpg)
+![screenshot of Minimal Jekyll Theme](https://raw.githubusercontent.com/arg0s/minimal-jekyll-theme/master/images/theme-post-600.jpg)
 
 ## Minimal Jeykll Theme is all about:
 
