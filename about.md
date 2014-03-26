@@ -5,6 +5,7 @@ title: About the Theme
 tagline: A Minimal Jekyll Theme
 tags: [about, Jekyll, theme, responsive]
 modified: 9-9-2013
+comments: true
 image:
   feature: texture-feature-02.jpg
   credit: Virginie Moerenhout

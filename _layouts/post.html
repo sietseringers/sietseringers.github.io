@@ -68,6 +68,9 @@
       </a>.</p>
       </footer>
     </div><!-- /.article-wrap -->
+  {% if site.disqus_shortname and page.comments %}
+    <section id="disqus_thread"></section><!-- /#disqus_thread -->
+  {% endif %}
   </article>
 </div><!-- /#main -->
 
