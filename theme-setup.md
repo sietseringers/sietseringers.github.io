@@ -2,12 +2,12 @@
 layout: page
 permalink: /theme-setup/
 title: Theme Setup
-description: "Instructions on how to install and customize the Jekyll theme Minimal Mistakes."
+description: "Instructions on how to install and customize the Minimal Jekyll Theme."
 tags: [Jekyll, theme, responsive]
 image:
   feature: texture-feature-02.jpg
-  credit: Texture Lovers
-  creditlink: http://texturelovers.com
+  credit: Virginie Moerenhout
+  creditlink: http://www.flickr.com/photos/yndra
 ---
 
 <section id="table-of-contents" class="toc">
@@ -20,18 +20,18 @@ image:
 </div>
 </section><!-- /#table-of-contents -->
 
-General notes and suggestions for customizing Minimal Mistakes.
+General notes and suggestions for customizing Minimal Jekyll Theme.
 
 ## Basic Setup for a new Jekyll site
 
 1. [Install Bundler](http://bundler.io) `gem install bundler` and then install [Jekyll](http://jekyllrb.com) and all dependencies `bundle install`.
-2. Fork the [Minimal Mistakes repo](http://github.com/mmistakes/minimal-mistakes/fork).
+2. Fork the [Minimal Jekyll Theme repo](http://github.com/arg0s/minimal-jekyll-theme/fork).
 3. Clone the repo you just forked and rename it.
 4. Edit `_config.yml` to personalize your site.
 5. Check out the sample posts in `_posts` to see examples for pulling in large feature images, assigning categories and tags, and other YAML data.
 6. Read the documentation below for further customization pointers and documentation.
 
-<div markdown="0"><a href="https://github.com/mmistakes/minimal-mistakes/archive/master.zip" class="btn">Download the Theme</a></div>
+<div markdown="0"><a href="https://github.com/arg0s/minimal-jekyll-theme/archive/master.zip" class="btn">Download the Theme</a></div>
 
 **Pro-tip:** Delete the `gh-pages` branch after cloning and start fresh by branching off `master`. There is a bunch of garbage in `gh-pages` used for the theme's demo site that I'm guessing you don't want on your site.
 {: .notice}
@@ -41,7 +41,7 @@ General notes and suggestions for customizing Minimal Mistakes.
 ## Folder Structure
 
 {% highlight text %}
-minimal-mistakes/
+/
 ├── _includes/
 |    ├── _author-bio.html        # bio stuff layout. pulls optional owner data from _config.yml
 |    ├── _browser-upgrade.html   # prompt to install a modern browser for < IE9
@@ -102,7 +102,7 @@ links:
   - title: Other Page
     url: /other-page/
   - title: External Page
-    url: http://mademistakes.com
+    url: http://www.arg0s.in
     external: true
 {% endhighlight %}
 
@@ -127,7 +127,7 @@ There are a few configuration variables that can be changed in `Rakefile.rb`. By
 
 A good rule of thumb is to keep feature images nice and wide so you don't push the body text too far down. An image cropped around around 1024 x 256 pixels will keep file size down with an acceptable resolution for most devices. If you want to serve these images responsively I'd suggest looking at the [Jekyll Picture Tag](https://github.com/scottjehl/picturefill) plugin[^2].
 
-The two layouts make the assumption that the feature images live in the `images/` folder. To add a feature image to a post or page just include the filename in the front matter like so. 
+The two layouts make the assumption that the feature images live in the `images/` folder. To add a feature image to a post or page just include the filename in the front matter like so.
 
 {% highlight yaml %}
 image:
@@ -140,8 +140,8 @@ If you want to apply attribution to a feature image use the following YAML front
 {% highlight yaml %}
 image:
   feature: feature-image-filename.jpg
-  credit: Michael Rose #name of the person or site you want to credit
-  creditlink: http://mademistakes.com #url to their site or licensing
+  credit: Arvi Krishnaswamy #name of the person or site you want to credit
+  creditlink: http://www.arg0s.in #url to their site or licensing
 {% endhighlight %}
 
 #### Post Index Page
@@ -206,17 +206,12 @@ And if the command line isn't your thing (you're using Jekyll so it probably is)
 
 ---
 
-## Questions?
-
-Having a problem getting something to work or want to know why I setup something in a certain way? Ping me on Twitter [@mmistakes](http://twitter.com/mmistakes) or [file a GitHub Issue](https://github.com/mmistakes/minimal-mistakes/issues/new). And if you make something cool with this theme feel free to let me know.
-
----
 
 ## License
 
-This theme is free and open source software, distributed under the [GNU General Public License]({{ site.url }}/LICENSE) version 2 or later. So feel free to use this Jekyll theme on your site without linking back to me or including a disclaimer. 
+This theme is free and open source software, distributed under the [GNU General Public License]({{ site.url }}/LICENSE) version 2 or later. So feel free to use this Jekyll theme on your site without linking back to me or including a disclaimer.
 
 
-[^1]: Used to generate absolute urls in `sitemap.xml`, `feed.xml`, and for canonical urls in `_head.html`. Don't include a trailing `/` in your base url ie: `http://mademistakes.com`. When developing locally remove or comment out this line so local .css, .js, and images are used.
+[^1]: Used to generate absolute urls in `sitemap.xml`, `feed.xml`, and for canonical urls in `_head.html`. Don't include a trailing `/` in your base url ie: `http://mytheme.com`. When developing locally remove or comment out this line so local .css, .js, and images are used.
 
 [^2]: If you're using GitHub Pages to host your site be aware that plugins are disabled. So you'll need to build your site locally and then manually deploy if you want to use this sweet plugin.

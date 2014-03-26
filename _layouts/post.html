@@ -45,7 +45,27 @@
         <div class="article-author-bottom">
           {% include _author-bio.html %}
         </div>
-        <p class="byline"><strong>{{ page.title }}</strong> was published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %} by <a href="{{ site.url }}/about" title="About {{ site.owner.name }}">{{ site.owner.name }}</a>.</p>
+
+        <p class="byline"><strong>{{ page.title }}</strong> was published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %} by <a href="{{ site.url }}/about" title="About {{ site.owner.name }}">
+        {% assign authorCount = page.authors | size %}
+        {% if authorCount == 0 %}
+            Site Admin
+        {% elsif authorCount == 1 %}
+            {% assign _author = site.authors[page.authors.first] %}
+            {{ _author.name }}
+          {% else %}
+            {% for author in page.authors %}
+                {% assign _author = site.authors[author] %}
+                {% if forloop.first %}
+                {{ _author.name }}
+                {% elsif forloop.last %}
+                    and {{ _author.name }}
+                {% else %}
+                    , {{ _author.name }}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+      </a>.</p>
       </footer>
     </div><!-- /.article-wrap -->
   </article>
@@ -66,7 +86,7 @@
   </footer>
 </div><!-- /.footer-wrap -->
 
-{% include _scripts.html %}	        
+{% include _scripts.html %}
 
 </body>
 </html>

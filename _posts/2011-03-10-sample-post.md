@@ -6,8 +6,8 @@ modified: 2013-05-31
 tags: [intro, beginner, jekyll, tutorial]
 image:
   feature: texture-feature-05.jpg
-  credit: Texture Lovers
-  creditlink: http://texturelovers.com
+  credit: Virginie Moerenhout
+  creditlink: http://www.flickr.com/photos/yndra
 ---
 
 <section id="table-of-contents" class="toc">
