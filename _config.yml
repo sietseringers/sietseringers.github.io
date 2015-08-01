@@ -1,17 +1,17 @@
-title:            Site Title
-description:      Describe your website.
+title:            Sietse Ringers
+description:      Personal website of Sietse Ringers
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://localhost:4000
+url:              https://sietseringers.github.io
 disqus_shortname: 
 
 # Owner/author information
 owner:
-  name:           Your Name
+  name:           Sietse Ringers
   avatar:         bio-photo.jpg
-  bio:            "Describe your self."
-  email:          your@email.com
+  # bio:            "Describe your self."
+  email:          mail@sietseringers.net
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter:        twitortat
+  twitter:
   facebook:
   github:
   stackoverflow:
@@ -26,71 +26,15 @@ owner:
   # For Google Authorship https://plus.google.com/authorship
   google_plus:
 
-# Author(s) information
-authors:
-  author1:
-    name:           Arvi Krishnaswamy
-    avatar:         bio-photo.jpg
-    bio:            "Describe your self."
-    email:          your@email.com
-    # Social networking links are used in author-bio sidebar. Update and remove as you like.
-    twitter:        twitortat
-    facebook:
-    github:          arg0s
-    stackoverflow:
-    linkedin:
-    instagram:
-    lastfm:
-    tumblr:
-    pinterest:
-    foursquare:
-    steam:
-    dribbble:
-    # For Google Authorship https://plus.google.com/authorship
-    google_plus:
-  author2:
-    name:           Don Quixote
-    avatar:         bio-photo.jpg
-    bio:            "Describe your self."
-    email:          your@email.com
-    # Social networking links are used in author-bio sidebar. Update and remove as you like.
-    twitter:
-    facebook:
-    github:
-    stackoverflow:
-    linkedin:
-    instagram:
-    lastfm:
-    tumblr:
-    pinterest:
-    foursquare:
-    steam:
-    dribbble:
-    # For Google Authorship https://plus.google.com/authorship
-    google_plus:
-
-
-# Analytics and webmaster tools stuff goes here
-google_analytics:
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
-links:
-  - title: About
-    url: /about/
-  - title: Posts
-    url: /posts/
-  - title: Theme Setup
-    url: /theme-setup/
-  - title: About Arvi
-    url: http://www.arg0s.in
-    external: true
+# links:
+#   - title: About
+#     url: /about/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/Kolkota
+timezone:    Europe/Amsterdam
 future:      true
 pygments:    true
 markdown:    kramdown
