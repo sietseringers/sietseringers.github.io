@@ -29,9 +29,15 @@ owner:
 
 # Links to include in top navigation
 # For external links add external: true
-# links:
-#   - title: About
-#     url: /about/
+links:
+  - title: Contact
+    url: "#contact"
+  - title: Github profile
+    url: https://github.com/sietseringers
+    external: true
+  - title: IRMA project
+    url: https://www.irmacard.org
+    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Amsterdam
