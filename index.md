@@ -18,7 +18,7 @@ For several years, the [IRMA project](https://www.irmacard.org) has been working
 
 #### Earlier publications
 * A. V. Kiselev and S. Ringers. **A comparison of definitions for the Schouten bracket on jet spaces.** In _Proceedings of Sixth International Workshop “Group Analysis of Differential Equations and Integrable Systems”_, Larnaca, Cyprus, 2012. [arXiv: 1208.6196](http://arxiv.org/abs/1208.6196).
-* S. Ringers, **Topologically Twisted Yang-Mills Theory on K3 Surfaces**. MSc thesis, supervised by prof. R. Dijkgraaf. [PDF](https://esc.fnwi.uva.nl/thesis/centraal/files/f2089752450.pdf).
+* S. Ringers, **Topologically Twisted Yang-Mills Theory on K3 Surfaces**. MSc thesis, supervised by prof. R. Dijkgraaf. [PDF](files/mscthesis.pdf).
 
 ## Contact
 
