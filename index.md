@@ -14,7 +14,7 @@ For several years, the [IRMA project](https://www.irmacard.org) has been working
 
 ## Publications
 * E. Verheul, S. Ringers, and J.-H. Hoepman. **The self-blindable U-Prove scheme by Hanzlik and Kluczniak is forgeable.** In [_Cryptology ePrint Archive, Report 2015/725_](https://eprint.iacr.org/2015/725).
-* S. Ringers, J.-H. Hoepman, and W. Lueks. **On linkability and malleability in self-blindable credentials.** In _The 9th WISTP International Conference on Information Security Theory and Practice (WISTP'2015)_, Heraklion, Krete, Greece, August 24-25 2015. (To appear).
+* S. Ringers, J.-H. Hoepman, and W. Lueks. **On linkability and malleability in self-blindable credentials.** In [_The 9th WISTP International Conference on Information Security Theory and Practice (WISTP'2015)_](http://link.springer.com/chapter/10.1007/978-3-319-24018-3_13), Heraklion, Krete, Greece, August 24-25 2015. [PDF](files/sbc-linkable.pdf)
 
 #### Earlier publications
 * A. V. Kiselev and S. Ringers. **A comparison of definitions for the Schouten bracket on jet spaces.** In _Proceedings of Sixth International Workshop “Group Analysis of Differential Equations and Integrable Systems”_, Larnaca, Cyprus, 2012. [arXiv: 1208.6196](http://arxiv.org/abs/1208.6196).
