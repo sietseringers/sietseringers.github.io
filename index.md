@@ -18,9 +18,12 @@ Although digital signatures already are a very versatile cryptographic primitive
 ## Dining cryptographers
 In the [Verdict](http://dedis.cs.yale.edu/dissent/papers/verdict-abs) protocol, a group of people can share data with each other, in such a way that no can see who contributed what data. The [ipfs-dc](https://github.com/confiks/ipfs-dc) project, of which I am one of the authors, will implement this protocol on top of [IPFS](https://ipfs.io/), a distributed networking protocol that ensures data integrity.
 
+## PhD thesis
+A draft of my PhD thesis may be found [here](files/thesis.pdf).
+
 ## Publications
 * E. Verheul, S. Ringers, and J.-H. Hoepman. **The self-blindable U-Prove scheme from FC'14 is forgeable.** In _Financial Cryptography 2016 (FC'16)_, to be published. [PDF](https://eprint.iacr.org/2015/725.pdf), [slides](files/fc-16-talk.pdf)
-* S. Ringers, J.-H. Hoepman, and W. Lueks. **On linkability and malleability in self-blindable credentials.** In [_The 9th WISTP International Conference on Information Security Theory and Practice (WISTP'2015)_](http://link.springer.com/chapter/10.1007/978-3-319-24018-3_13), Heraklion, Krete, Greece, August 24-25 2015. [PDF](files/sbc-linkable.pdf)
+* S. Ringers, J.-H. Hoepman, and W. Lueks. **On linkability and malleability in self-blindable credentials.** In [_The 9th WISTP International Conference on Information Security Theory and Practice (WISTP'2015)_](http://link.springer.com/chapter/10.1007/978-3-319-24018-3_13), Heraklion, Crete, Greece, August 24-25 2015. [PDF](files/sbc-linkable.pdf)
 
 #### Earlier publications
 * A. V. Kiselev and S. Ringers. **A comparison of definitions for the Schouten bracket on jet spaces.** In _Proceedings of Sixth International Workshop “Group Analysis of Differential Equations and Integrable Systems”_, Larnaca, Cyprus, 2012. [arXiv: 1208.6196](http://arxiv.org/abs/1208.6196).
