@@ -4,7 +4,7 @@ description: "Home"
 ---
 # Sietse Ringers
 
-I am a PhD student at the [Radboud University](http://www.ru.nl/ds/) and the [University of Groningen](http://www.math.rug.nl/jbi/), interested in privacy enhancing technologies, cryptography, and in particular secure and privacy-friendly identity management. Before that my research involved the mathematical side of [gauge theories and partial differential equations](files/mscthesis.pdf).
+I am a postdoctoral researcher and software engineer at the [Radboud University](http://www.ru.nl/ds/) and the [University of Groningen](http://www.math.rug.nl/jbi/), interested in privacy enhancing technologies, cryptography, and in particular secure and privacy-friendly identity management. Before that my research involved the mathematical side of [gauge theories and partial differential equations](files/mscthesis.pdf).
 
 ## Attribute-based credentials
 With an attribute-based credential scheme, you can selectively show some of your properties, while keeping others to yourself (more detailed explanation [here](https://www.irmacard.org/irma/)). [Idemix](http://www.zurich.ibm.com/idemix/) is an example of such a scheme; it is used in the IRMA project. [Jaap-Henk Hoepman](http://www.cs.ru.nl/~jhh/), [Eric Verheul](http://www.cs.ru.nl/E.Verheul/) and myself have created a [new, smart-card suitable attribute-based credential scheme](files/abc.pdf).
@@ -20,7 +20,7 @@ In the [Verdict](http://dedis.cs.yale.edu/dissent/papers/verdict-abs) protocol, 
 
 ## PhD thesis
 My PhD thesis **Quantization using Jet Space Geometry and
-Identity Management using Credential Schemes** may be found [here](files/thesis.pdf).
+Identity Management using Credential Schemes**, which I defended on 7 October 2016 at the University of Groningen, may be found [here](files/thesis.pdf).
 
 ## Publications
 * E. Verheul, S. Ringers, and J.-H. Hoepman. **The self-blindable U-Prove scheme from FC'14 is forgeable.** In _Financial Cryptography 2016 (FC'16)_, to be published. [PDF](https://eprint.iacr.org/2015/725.pdf), [slides](files/fc-16-talk.pdf)
