@@ -4,7 +4,7 @@ description: "Home"
 ---
 # Sietse Ringers
 
-I am a postdoctoral researcher and software engineer at the [Radboud University](http://www.ru.nl/ds/) and the [University of Groningen](http://www.math.rug.nl/jbi/), interested in privacy enhancing technologies, cryptography, and in particular secure and privacy-friendly identity management. Before that my research involved the mathematical side of [gauge theories and partial differential equations](files/mscthesis.pdf).
+I am a postdoctoral researcher and software engineer at the Digital Security department of the [Radboud University](http://www.ru.nl/ds/), interested in privacy enhancing technologies, cryptography, and in particular secure and privacy-friendly identity management. Before that my research involved the mathematical side of gauge theories and partial differential equations.
 
 ## Attribute-based credentials
 With an attribute-based credential scheme, you can selectively show some of your properties, while keeping others to yourself (more detailed explanation [here](https://www.irmacard.org/irma/)). [Idemix](http://www.zurich.ibm.com/idemix/) is an example of such a scheme; it is used in the IRMA project. [Jaap-Henk Hoepman](http://www.cs.ru.nl/~jhh/), [Eric Verheul](http://www.cs.ru.nl/E.Verheul/) and myself have created a [new, smart-card suitable attribute-based credential scheme](files/abc.pdf).
