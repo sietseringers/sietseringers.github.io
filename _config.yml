@@ -38,6 +38,9 @@ links:
   - title: IRMA project
     url: https://www.irmacard.org
     external: true
+  - title: PEP project
+    url: http://pep.cs.ru.nl
+    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Amsterdam
